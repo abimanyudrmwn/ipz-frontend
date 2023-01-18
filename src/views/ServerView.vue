@@ -6,64 +6,64 @@
         <div v-for="i in info" :key="i.maxPlayers" class="relative overflow-x-auto">
           <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
               <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           Server Name
                       </th>
                       <td class="px-6 py-4">
                           {{i.serverName}}
                       </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           IP
                       </th>
                       <td class="px-6 py-4">
                           {{i.ip}}
                       </td>
                   </tr> 
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           Port
                       </th>
                       <td class="px-6 py-4">
                           {{i.port}}
                       </td>
                   </tr> 
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           Status
                       </th>
                       <td class="px-6 py-4">
                           {{i.serverStatus}}
                       </td>
                   </tr> 
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           In-Game Time
                       </th>
                       <td class="px-6 py-4">
                           {{i.clock}}
                       </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           Players
                       </th>
                       <td class="px-6 py-4">
                           {{i.playerCount}}/{{i.maxPlayers}}
                       </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           Season Age
                       </th>
                       <td class="px-6 py-4">
                           {{i.seasonAge}}
                       </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-gray-800 border-gray-700">
+                      <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
                           Version
                       </th>
                       <td class="px-6 py-4">
@@ -91,7 +91,7 @@
         </thead>
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap dark:text-white">
                     Lorem Ipsum
                 </th>
                 <td class="px-6 py-4">
