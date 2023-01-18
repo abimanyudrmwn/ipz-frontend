@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-gray-800 fixed w-full z-10 top-0 shadow-sm">
+    <div class="bg-gray-800 fixed w-full z-10 top-0 shadow-sm font-poppins">
       <nav
         class="
           container
@@ -59,19 +59,19 @@
             md:mt-0
           "
         >
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
             <router-link to="/">Home</router-link>
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
             About
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
             <router-link to="/server">Server Status</router-link>
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
             Donate
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
             <button
               @click="show = !show"
               class="
@@ -144,6 +144,18 @@
                 "
               >
                 Wiki
+              </router-link>
+              <router-link
+                to="/"
+                class="
+                  block
+                  px-4
+                  py-2
+                  text-sm text-indigo-100
+                  hover:bg-indigo-400 hover:text-indigo-100
+                "
+              >
+                Contact Us
               </router-link>
             </div>
           </li>

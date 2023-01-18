@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-gray-900 h-full w-full py-32">
+  <main class="bg-gray-900 h-full w-full py-32 font-poppins">
       <h1 class="text-white text-center text-3xl font-bold animate-pulse">Server Status</h1>
     
       <div class="grid grid-cols-1 gap-6 py-16 mx-12 md:grid-cols-2">

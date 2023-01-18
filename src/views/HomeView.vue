@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full font-poppins">
     <main role="main" class="w-full flex flex-col h-screen content-center justify-center my-10">
         <div class="w-full mx-auto justify-center flex my-2">
           <img src="https://www.projectzomboid.id/assets/img/hero-logo.png" alt="IPZ" class="h-64"/>
