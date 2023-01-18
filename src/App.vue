@@ -59,20 +59,93 @@
             md:mt-0
           "
         >
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-blue-400">
+          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
             <router-link to="/">Home</router-link>
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-blue-400">
+          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
             About
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-blue-400">
+          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
             <router-link to="/server">Server Status</router-link>
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-blue-400">
+          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
             Donate
           </li>
-          <li class="text-md uppercase font-bold text-gray-400 hover:text-blue-400">
-            More
+          <li class="text-md uppercase font-bold text-gray-400 hover:text-red-600">
+            <button
+              @click="show = !show"
+              class="
+                flex
+                items-center
+                text-gray-400
+                hover:text-red-700
+                rounded-md
+                focus:outline-none
+              "
+            >
+              <span>MORE</span>
+              <svg
+                class="w-5 h-5 text-gray-400 hover:text-red-700"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              v-show="show"
+              class="
+                py-2
+                mt-2
+                bg-gray-700
+                rounded-md
+                lg:absolute lg:right-0
+                w-44
+              "
+            >
+              <router-link
+                to="/"
+                class="
+                  block
+                  px-4
+                  py-2
+                  text-sm text-indigo-100
+                  hover:bg-indigo-400 hover:text-indigo-100
+                "
+              >
+                Mods by IPZ
+              </router-link>
+              <router-link
+                to="/"
+                class="
+                  block
+                  px-4
+                  py-2
+                  text-sm text-indigo-100
+                  hover:bg-indigo-400 hover:text-indigo-100
+                "
+              >
+                Smuggler
+              </router-link>
+              <router-link
+                to="/"
+                class="
+                  block
+                  px-4
+                  py-2
+                  text-sm text-indigo-100
+                  hover:bg-indigo-400 hover:text-indigo-100
+                "
+              >
+                Wiki
+              </router-link>
+            </div>
           </li>
         </ul>
       </nav>
@@ -89,6 +162,7 @@ export default {
   data() {
     return {
       showMenu: false,
+      show: false,
     };
   },
 
