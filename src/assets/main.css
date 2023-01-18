@@ -1,0 +1,5 @@
+@import "./tailwind.css";
+
+body {
+  background-image: url('https://www.projectzomboid.id/assets/img/bg.jpg');
+}
