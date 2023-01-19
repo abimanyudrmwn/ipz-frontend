@@ -3,3 +3,17 @@
 body {
   background-image: url('https://www.projectzomboid.id/assets/img/bg.jpg');
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}

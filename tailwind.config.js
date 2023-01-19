@@ -5,6 +5,15 @@ module.exports = {
       "./src/**/*.{vue,js,ts,jsx,tsx}",
    ],
    theme: {
+    colors:
+    {
+      'merah' : '#b70000',
+      'hitam' : '#030303',
+      'putih' : '#FFFFFF',
+      'abu' : '#5b5b5b',
+      'abutua' : '#262626',
+      'abutuabanget' : '#131313',
+    },
     extend:
     {
       fontFamily: {

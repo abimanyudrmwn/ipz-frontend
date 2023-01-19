@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-gray-800 fixed w-full z-10 top-0 shadow-sm font-poppins">
+    <div class="bg-hitam fixed w-full z-10 top-0 shadow-sm font-poppins">
       <nav
         class="
           container
@@ -61,19 +61,19 @@
             md:mt-0
           "
         >
-          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-putih hover:text-merah hover:font-medium">
             <router-link to="/">Home</router-link>
           </li>
-          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-putih hover:text-merah hover:font-medium">
             About
           </li>
-          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-putih hover:text-merah hover:font-medium">
             <router-link to="/server">Server Status</router-link>
           </li>
-          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-putih hover:text-merah hover:font-medium">
             Donate
           </li>
-          <li class="text-md uppercase font-medium text-gray-400 hover:text-red-600">
+          <li class="text-md uppercase font-medium text-putih hover:text-merah hover:font-medium">
             <button
               @click="show = !show"
               class="
@@ -87,7 +87,7 @@
             >
               <span>MORE</span>
               <svg
-                class="w-5 h-5 text-gray-400 hover:text-red-700"
+                class="w-5 h-5 text-putih hover:text-merah"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -105,7 +105,7 @@
               class="
                 py-2
                 mt-2
-                bg-gray-700
+                bg-hitam
                 rounded-md
                 lg:absolute lg:right-0
                 w-44
@@ -117,8 +117,8 @@
                   block
                   px-4
                   py-2
-                  text-sm text-indigo-100
-                  hover:bg-indigo-400 hover:text-indigo-100
+                  text-sm text-putih
+                  hover:bg-merah hover:text-indigo-100
                 "
               >
                 Mods by IPZ
@@ -129,8 +129,8 @@
                   block
                   px-4
                   py-2
-                  text-sm text-indigo-100
-                  hover:bg-indigo-400 hover:text-indigo-100
+                  text-sm text-putih
+                  hover:bg-merah hover:text-putih
                 "
               >
                 Smuggler
@@ -141,8 +141,8 @@
                   block
                   px-4
                   py-2
-                  text-sm text-indigo-100
-                  hover:bg-indigo-400 hover:text-indigo-100
+                  text-sm text-putih
+                  hover:bg-merah hover:text-putih
                 "
               >
                 Achievement
@@ -153,8 +153,8 @@
                   block
                   px-4
                   py-2
-                  text-sm text-indigo-100
-                  hover:bg-indigo-400 hover:text-indigo-100
+                  text-sm text-putih
+                  hover:bg-merah hover:text-putih
                 "
               >
                 Wiki
@@ -165,8 +165,8 @@
                   block
                   px-4
                   py-2
-                  text-sm text-indigo-100
-                  hover:bg-indigo-400 hover:text-indigo-100
+                  text-sm text-putih
+                  hover:bg-merah hover:text-putih
                 "
               >
                 Contact Us
