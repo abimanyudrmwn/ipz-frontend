@@ -41,7 +41,7 @@
       </div>
 
       <div class="grid grid-cols-1 gap-4 mx-6 my-10 sm:grid-cols-3 sm:mx-32">
-        <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-abutua shadow">
+        <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-abutua bg-opacity-20 shadow">
           <img
             src="https://www.projectzomboid.id/assets/img/1.png"
             class="aspect-video w-full object-cover"
@@ -52,7 +52,7 @@
             <p class="mt-1 text-putih">Choose your faction and survive together! We have many factions that you can choose according to your gameplay.</p>
           </div>
         </div>
-        <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-abutua shadow">
+        <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-abutua bg-opacity-20 shadow">
           <img
             src="https://www.projectzomboid.id/assets/img/3.png"
             class="aspect-video w-full object-cover"
@@ -63,7 +63,7 @@
             <p class="mt-1 text-putih">Find interesting things in exciting events! We love to do contests with players to find the real champions!</p>
           </div>
         </div>
-        <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-abutua shadow">
+        <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-abutua bg-opacity-20 shadow">
           <img
             src="https://www.projectzomboid.id/assets/img/4.png"
             class="aspect-video w-full object-cover"
