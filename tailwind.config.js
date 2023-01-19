@@ -9,6 +9,7 @@ module.exports = {
     {
       'merah' : '#b70000',
       'hitam' : '#030303',
+      'hitam-muda' : '#0d0d0d',
       'putih' : '#FFFFFF',
       'abu' : '#5b5b5b',
       'abutua' : '#262626',

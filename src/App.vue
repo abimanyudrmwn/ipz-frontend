@@ -21,7 +21,7 @@
               hover:text-blue-400
             "
             >
-            <img src="https://www.projectzomboid.id/assets/img/hero-logo.png" alt="" class="h-14">
+            <img src="https://res.cloudinary.com/belanga/image/upload/v1674141234/ipz/Logo_B_szthyg.png" alt="" class="h-14">
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -106,6 +106,7 @@
                 py-2
                 mt-2
                 bg-hitam
+                bg-opacity-80
                 rounded-md
                 lg:absolute lg:right-0
                 w-44

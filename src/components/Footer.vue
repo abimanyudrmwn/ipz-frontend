@@ -1,5 +1,5 @@
 <template>
-    <footer class="py-6 px-5 text-center mx-auto bg-abutuabanget font-poppins shadow-md">
+    <footer class="py-6 px-5 text-center mx-auto bg-hitam-muda font-poppins shadow-md">
         <span class="font-md text-md flex-col">
             <a href="https://instagram.com/projectzomboid.id" title="Indonesia Project Zomboid - Github" target="_blank" class="underline text-putih px-1"><span>Instagram</span></a>
             <a href="https://instagram.com/projectzomboid.id" title="Indonesia Project Zomboid - Github" target="_blank" class="underline text-putih px-1"><span>Discord</span></a>
