@@ -2,7 +2,7 @@
   <main class="bg-hitam h-full w-full py-32 font-poppins">
       <h1 class="text-putih text-center text-3xl font-bold">Server Status</h1>
     
-      <div class="grid grid-cols-1 gap-6 py-16 mx-12 sm:grid-cols-2">
+      <div class="grid grid-cols-1 gap-6 py-16 mx-6 sm:grid-cols-2 sm:mx-12">
         <div v-for="i in info" :key="i.maxPlayers" class="relative overflow-x-auto">
           <table class="w-full text-sm text-left text-putih">
               <tbody>
