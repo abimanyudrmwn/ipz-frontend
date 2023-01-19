@@ -1,31 +1,23 @@
 # IPZ Official Website (Frontend)
-Untuk generate auto slug agar terbaca oleh server-renderer
-```
-this.$route.params.id
-```
 
-## Recommended IDE Setup
+Crafted With
+- VueJS + Vite
+- Tailwind CSS
+- Headless UI
+ 
 
+ IDE Setup
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+## Project Setup  
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
 ```sh
 npm run build
 ```
+
+### 2023 ©️ Indonesia Project Zomboid 
