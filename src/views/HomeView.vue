@@ -15,7 +15,7 @@
     <div class="bg-hitam pb-16">
       <div class="flex flex-col justify-center content-center py-16">
         <h1 class="font-bold text-3xl text-putih text-center sm:mx-1 mx-1">LIFE IS NOT EASY ANYMORE</h1>
-        <p class="text-center text-abutua sm:mx-1 mx-1">They run at night, and are more deadly in silence.</p>
+        <p class="text-center text-abutua sm:mx-1 mx-1 mt-2">They run at night, and are more deadly in silence.</p>
       </div>
 
       <div class="mx-6 sm:mx-32">
