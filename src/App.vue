@@ -122,7 +122,7 @@
                 Mods by IPZ
               </router-link>
               <router-link
-                to="/"
+                to="/vehicles"
                 class="
                   block
                   px-4

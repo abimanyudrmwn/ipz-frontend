@@ -1,0 +1,7 @@
+{
+    "vehicles": [
+        { "id":1, "title" : "Honda Civic",  "details": "Kencang"},
+        { "id":2, "title" : "Honda Brio",  "details": "Sedang"},
+        { "id":3, "title" : "Honda Supra",  "details": "Lambat"}
+    ]
+}

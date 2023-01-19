@@ -2,7 +2,7 @@
   <main class="bg-gray-900 h-full w-full py-32 font-poppins">
       <h1 class="text-white text-center text-3xl font-bold animate-pulse">Server Status</h1>
     
-      <div class="grid grid-cols-1 gap-6 py-16 mx-12 md:grid-cols-2">
+      <div class="grid grid-cols-1 gap-6 py-16 mx-12 sm:grid-cols-2">
         <div v-for="i in info" :key="i.maxPlayers" class="relative overflow-x-auto">
           <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
               <tbody>
