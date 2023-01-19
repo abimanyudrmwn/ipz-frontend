@@ -2,13 +2,13 @@
   <div class="w-full font-poppins">
     <main role="main" class="w-full flex flex-col h-screen content-center justify-center my-10">
         <div class="w-full mx-auto justify-center flex my-2">
-          <img src="https://res.cloudinary.com/belanga/image/upload/v1674142995/ipz/IPZ-04_iw7zzg.png" alt="IPZ" class="h-110 w-auto"/>
+          <img src="https://res.cloudinary.com/belanga/image/upload/v1674143902/ipz/IPZ-06_1_cgpsbz.png" alt="IPZ" class="sm:h-80 h-60 w-auto mt-4"/>
         </div>
         <div class="w-full mx-auto justify-center flex my-2">
           <h1 class="font-bold text-2xl text-putih text-center">THE #1 PROJECT ZOMBOID COMMUNITY IN INDONESIA</h1>
         </div>
         <div class="justify-center flex mt-4">
-          <button type="button" class="text-putih bg-merah hover:bg-red-800 focus:ring-4 focus:ring-merah rounded-xl text-1xl px-8 py-4 mr-1 mb-1 dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800 uppercase font-bold mb-6">Survive with us</button>
+          <button type="button" class="text-putih bg-merah hover:bg-red-800 focus:ring-4 focus:ring-merah rounded-xl text-1xl px-8 py-4 mr-1 mb-1 dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800 uppercase font-bold">Survive with us</button>
         </div>
     </main>
 
