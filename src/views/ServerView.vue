@@ -6,7 +6,7 @@
         <div v-for="i in info" :key="i.maxPlayers" class="relative overflow-x-auto">
           <table class="w-full text-sm text-left text-putih">
               <tbody>
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           Server Name
                       </th>
@@ -14,7 +14,7 @@
                           {{i.serverName}}
                       </td>
                   </tr>
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           IP
                       </th>
@@ -22,7 +22,7 @@
                           {{i.ip}}
                       </td>
                   </tr> 
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           Port
                       </th>
@@ -30,7 +30,7 @@
                           {{i.port}}
                       </td>
                   </tr> 
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           Status
                       </th>
@@ -38,7 +38,7 @@
                           {{i.serverStatus}}
                       </td>
                   </tr> 
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           In-Game Time
                       </th>
@@ -46,7 +46,7 @@
                           {{i.clock}}
                       </td>
                   </tr>
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           Players
                       </th>
@@ -54,7 +54,7 @@
                           {{i.playerCount}}/{{i.maxPlayers}}
                       </td>
                   </tr>
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           Season Age
                       </th>
@@ -62,7 +62,7 @@
                           {{i.seasonAge}}
                       </td>
                   </tr>
-                  <tr class="bg-abutuabanget border-gray-700">
+                  <tr class="bg-abutuabanget bg-opacity-40 border-gray-700">
                       <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                           Version
                       </th>
@@ -76,7 +76,7 @@
 
 <div class="relative overflow-x-auto">
     <table class="w-full text-sm text-left text-putih">
-        <thead class="text-xs 0 uppercase bg-abutua text-putih">
+        <thead class="text-xs 0 uppercase bg-abutua bg-opacity-40 text-putih">
             <tr>
                 <th scope="col" class="px-6 py-3">
                     Player Name
@@ -90,7 +90,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr v-for="s in player" :key="s.nickname" class=" border-b bg-abutuabanget border-gray-700">
+            <tr v-for="s in player" :key="s.nickname" class=" border-b bg-abutuabanget bg-opacity-40 border-gray-700">
                 <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-putih">
                     {{ s.nickname }}
                 </th>
