@@ -20,7 +20,7 @@ export default {
         }
     },
     mounted(){
-        fetch('http://localhost:3000/vehicles/' + this.id)
+        fetch('http://localhost:3000/vehicles/' + this.$route.params.id)
             .then(res => res.json())
             .then(data => this.vehicle = data)
             .catch(err => console.log(err.message))

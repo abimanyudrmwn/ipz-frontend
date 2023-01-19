@@ -1,6 +1,8 @@
-# ipz
-
-This template should help get you started developing with Vue 3 in Vite.
+# IPZ Official Website (Frontend)
+Untuk generate auto slug agar terbaca oleh server-renderer
+```
+this.$route.params.id
+```
 
 ## Recommended IDE Setup
 
