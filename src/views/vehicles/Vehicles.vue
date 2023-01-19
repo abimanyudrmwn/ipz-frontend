@@ -45,7 +45,7 @@
             </div> 
             <div class="flex justify-between items-end">
               <span class="bg-green-600 text-white px-4 py-2 rounded-full text-md font-bold">{{ vehicle.price }} Rupiah</span> 
-              <a class="hover:bg-gray-100 hover:text-gray-900 text-white px-4 py-2 rounded-full font-bold" :href="`/vehicles/${this.$route.params.id}`">🔐 Top Secret →&#xFEFF;</a>
+              <a class="hover:bg-gray-100 hover:text-gray-900 text-white px-4 py-2 rounded-full font-bold" :href="`/vehicles/${vehicle.id}`">🔐 Top Secret →&#xFEFF;</a>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@
         class="
           container
           px-6
-          py-4
+          py-2
           mx-auto
           md:flex md:justify-between md:items-center
         "
@@ -50,6 +50,8 @@
           class="
             flex-col
             mt-8
+            mb-4
+            sm:mb-0
             space-y-4
             md:flex
             md:space-y-0
@@ -132,6 +134,18 @@
                 "
               >
                 Smuggler
+              </router-link>
+              <router-link
+                to="/achievement"
+                class="
+                  block
+                  px-4
+                  py-2
+                  text-sm text-indigo-100
+                  hover:bg-indigo-400 hover:text-indigo-100
+                "
+              >
+                Achievement
               </router-link>
               <router-link
                 to="/"
