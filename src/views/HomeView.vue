@@ -2,7 +2,7 @@
   <div class="w-full font-poppins">
     <main role="main" class="w-full flex flex-col h-screen content-center justify-center my-10">
         <div class="w-full mx-auto justify-center flex my-2">
-          <img src="https://www.projectzomboid.id/assets/img/hero-logo.png" alt="IPZ" class="h-64"/>
+          <img src="https://res.cloudinary.com/belanga/image/upload/v1674141234/ipz/Logo_B_szthyg.png" alt="IPZ" class="h-64"/>
         </div>
         <div class="w-full mx-auto justify-center flex my-2">
           <h1 class="font-bold text-2xl text-putih text-center">THE #1 PROJECT ZOMBOID COMMUNITY IN INDONESIA</h1>

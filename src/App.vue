@@ -21,24 +21,20 @@
               hover:text-blue-400
             "
             >
-            <img src="https://res.cloudinary.com/belanga/image/upload/v1674141234/ipz/Logo_B_szthyg.png" alt="" class="h-14">
+            <img src="https://res.cloudinary.com/belanga/image/upload/v1674141232/ipz/Logo_A_dohqk5.png" alt="" class="h-14">
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
             <button
               type="button"
               class="
-                text-gray-400
-                hover:text-gray-400
-                focus:outline-none focus:text-gray-400
+                text-putih
+                sm:text-putih
+                hover:text-abutua
+                focus:outline-none focus:text-abutua
               "
             >
-              <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-                <path
-                  fill-rule="evenodd"
-                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-                ></path>
-              </svg>
+            <svg class="text-putih" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z" fill="white"></path></svg>
             </button>
           </div>
         </div>
